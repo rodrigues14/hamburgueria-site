@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/464370779f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Burguer Castle</title>
+</head>
+<body>
+    <header>
+        <h1>Burguer <br> Castle <br> <i class="fa-brands fa-fort-awesome"></i></h1>
+        <button id="btn-mobile"><img id="icon-menu" src="./img/icon-menu.svg" alt=""></button>
+        <nav id="nav">
+            <ul id="menu">
+                <li><a href="index.html">home</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2 class="titulo-margin">Contato</h2>
+        <section id="form-contato">
+            <form action="">
+                <label for="nome">Nome: </label>
+                <input type="text" name="nometxt" id="nome" placeholder="Ex: Lucas">
+
+                <label for="tel">Telefone: </label>
+                <input type="tel" name="tel" id="telefone" placeholder="Ex:(11) 91111-1111">
+
+                <label for="mesa">Mesa para quantos:</label>
+                <input type="number" name="mesa" id="mesa" placeholder="Ex: 3">
+
+                <label for="infos">Informações adicionais: </label>
+                <textarea name="infos-ad" id="infos-adicionais" cols="30" rows="10" placeholder="Ex: Sem cebola"></textarea>
+                <input id="enviar" type="submit" value="Enviar">
+            </form>
+            <img src="./img/foto-restaurante.jpg" alt="">
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p class="copyright">
+                Feito com <span>&hearts;</span> por Lucas Rodrigues | Copyright &copy; 2022 - Buguer Castle
+            </p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
