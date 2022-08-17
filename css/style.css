@@ -35,6 +35,8 @@ a {
     color: #fff;
     font-size: 20px;
     padding: 10px 16px;
+    transition: .5s;
+    border-radius: 5px;
 }
 
 header ul a:hover {
