@@ -35,13 +35,12 @@ a {
     color: #fff;
     font-size: 20px;
     padding: 10px 16px;
-    transition: .5s;
+    transition: all .5s ease-in-out;
     border-radius: 5px;
 }
 
 header ul a:hover {
-    text-decoration: underline;
-    background-color: #dcc7aa;
+    background-color: #9ba5b3;
 }
 
 h1 {
@@ -152,7 +151,8 @@ footer span {
 }
 
 .foto img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+    transition: .6s;
 }
 
 /*--------------CONTATO--------------*/
